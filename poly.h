@@ -4,13 +4,13 @@
 #include "params.h"
 
 typedef struct {
-    unsigned char coeffs[PARAMS_N];
+    unsigned short coeffs[PARAMS_N];
 } poly;
 
 
 poly poly_mul(poly a, poly b);
 poly poly_add(poly a, poly b);
 poly poly_sub(poly a, poly b);
-poly poly_frommsg(const unsigned char *msg);
+poly poly_frommsg(const unsigned short *msg);
 
 #endif // POLY_H
