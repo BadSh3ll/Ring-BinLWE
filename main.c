@@ -9,7 +9,7 @@
 int main() {
 
     int fails = 0;
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 1000; i++) {
         
         unsigned short pk[PARAMS_N * 2];
         unsigned short sk[PARAMS_N];
